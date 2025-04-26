@@ -52,6 +52,11 @@ body {
     cursor: pointer;
     transition: background-color 0.3s;
 }
+.btn:hover{
+    background: #cecdcdbb;
+    box-shadow: 0 4px 6px rgba(5, 1, 1, 0.397);
+
+}
 
 .btn.operator {
     background-color: orange;
@@ -70,10 +75,14 @@ body {
     font-size: 2rem;
     color: #ffffff;
 }
-
-.btn:hover {
-    opacity: 0.8;
+.equal:hover{
+    background-color: #3b3b3b;
+    color:#ffffff;
 }
+
+/* .btn:hover {
+    opacity: 0.8;
+} */
 
 .history {
     background-color: #ffffff;
